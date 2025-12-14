@@ -12,6 +12,13 @@
     "bin": "kazumi.exe",
     "shortcuts": [["kazumi.exe", "Kazumi"]],
     "checkver": {
-        "github": "Predidit/Kazumi"
+        "github": "https://github.com/Predidit/Kazumi"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Predidit/Kazumi/releases/download/$version/Kazumi_windows_$version.zip"
+            }
+        }
     }
 }
